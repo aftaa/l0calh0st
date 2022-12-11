@@ -3,8 +3,8 @@
 namespace App\Command;
 
 use App\Websocket\MessageHandler;
-use Ratchet\Http\HttpServer;
 use Ratchet\Server\IoServer;
+use Ratchet\Http\HttpServer;
 use Ratchet\WebSocket\WsServer;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
